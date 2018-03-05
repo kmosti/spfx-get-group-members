@@ -1,0 +1,22 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "3b0eb3b7-ea92-4afe-bb69-c816b2393559",
+  "alias": "GetSiteMembersWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "getSiteMembers" },
+    "description": { "default": "Fetches members of the target group and renders them" },
+    "officeFabricIconFontName": "Teamwork",
+    "properties": {
+      "description": "getSiteMembers",
+      "siteGroup": "siteGroup",
+      "groupTitle": "groupTitle"
+    }
+  }]
+}

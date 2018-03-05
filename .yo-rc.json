@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "get-site-members",
+    "libraryId": "14179ccb-9721-4428-9455-0635450ac998",
+    "environment": "spo"
+  }
+}
