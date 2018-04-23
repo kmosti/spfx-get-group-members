@@ -17,6 +17,7 @@ import SimpleTable from 'react-simple-table';
 // Import React Table
 import ReactTable from "react-table";
 import "react-table/react-table.css";
+import 'babel-polyfill';
 
 export default class GetSiteMembers extends React.Component<IGetSiteMembersProps, IGetSiteMembersState> {
 
